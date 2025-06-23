@@ -1,0 +1,24 @@
+.frisbee-container {
+  position: fixed;
+  top: 50%;
+  left: -100px;
+  animation: slideRotate 3s forwards;
+  z-index: 1000;
+}
+
+.frisbee-container.hide {
+  display: none;
+}
+
+.frisbee {
+  height: 80px;
+}
+
+@keyframes slideRotate {
+  0% {
+    transform: translateX(0) translateY(30vh) scale(1) rotate(0deg);
+  }
+  100% {
+    transform: translateX(150vw) translateY(-50vh) scale(4) rotate(720deg);
+  }
+}

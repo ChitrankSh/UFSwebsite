@@ -1,0 +1,40 @@
+.leaders-section {
+  padding: 4rem 2rem;
+  background-color: #2e516e;
+  text-align: center;
+}
+
+.leaders-section h1{
+    color: white;
+}
+
+.leader-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.leader-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.4s ease, scale 0.4s;
+  width: 220px;
+  padding: 25px;
+}
+
+.leader-card:hover {
+  transform: scale(1.05) rotateY(5deg);
+}
+
+.leader-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}

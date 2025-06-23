@@ -1,0 +1,29 @@
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, transparent, rgb(58, 115, 200), transparent);
+  color: white; /* or black, depending on contrast */
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px auto;
+  width: 100%;
+  display: block;
+}
+
+
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
